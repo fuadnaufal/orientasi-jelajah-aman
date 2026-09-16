@@ -14,3 +14,11 @@ export interface WeatherCardProps {
     suhu: number;
     tingkatAQI: TingkatAQI;
 }
+
+// 1. Interface LaporanUdara sesuai spesifikasi
+export interface LaporanUdara {
+    kota: string;
+    indeksAQI: number;
+    tingkat: "BAIK" | "SEDANG" | "TIDAK_SEHAT" | "BERBAHAYA";
+    diperbaruiPada?: string;
+}
