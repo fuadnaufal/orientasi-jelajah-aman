@@ -7,7 +7,7 @@ export default function TabRiwayat() {
 
     return (
         <View style={{ padding: 16 }}>
-            <RiwayatList daftarKota={daftarKota} />
+        <   RiwayatList daftarKota={daftarKota} />
         </View>
     );
 }
