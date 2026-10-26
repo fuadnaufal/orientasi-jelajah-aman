@@ -17,8 +17,8 @@ export interface DataTersimpan {
     cuaca: DataCuacaLengkap;
     kualitasUdara: DataKualitasUdara;
     disimpanPada: number; // epoch milidetik
-
 }
+
 // Hasil akhir yang dipakai layar
 export interface HasilCuacaOffline extends DataTersimpan {
     sumber: SumberData;
@@ -28,4 +28,5 @@ export interface HasilCuacaOffline extends DataTersimpan {
 export interface RingkasanKotaTersimpan extends KotaUntukCache {
     kunci: string;
     disimpanPada: number;
+    suhu?: number;
 }

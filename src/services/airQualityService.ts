@@ -1,5 +1,5 @@
 // src/services/airQualityService.ts
-import { DataKualitasUdara } from "../../types/weather";
+import { DataKualitasUdara } from "../types/weather";
 const BASE_URL = "https://air-quality-api.open-meteo.com/v1/air-quality";
 export async function ambilKualitasUdara(
     latitude: number,
